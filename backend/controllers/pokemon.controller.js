@@ -1,7 +1,7 @@
 import Pokemon from '../models/pokemon.model.js';
 import mongoose from 'mongoose';
 
-// get * information of pokemon
+// get information of pokemon
 export const getPokemons = async (req, res) => {
     try {
         const pokemons = await Pokemon.find({});

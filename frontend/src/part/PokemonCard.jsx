@@ -78,7 +78,7 @@ const PokemonCard = ({pokemon}) => {
                     mb={4}
                     color={textColor}
                 >
-                    *{pokemon.identify_id}
+                    {pokemon.identify_id}
                 </Text>
 
                 <HStack>
